@@ -26,7 +26,7 @@ public class AudioPanel : MonoBehaviour
 
     private float _volumeCorrection = 20;
 
-    private bool _isSoundOn = true;
+    private bool _isSoundsOn = true;
 
     private void OnEnable()
     {
@@ -67,9 +67,9 @@ public class AudioPanel : MonoBehaviour
 
     private void ToogleAllSounds()
     {
-        _isSoundOn = !_isSoundOn;
+        _isSoundsOn = !_isSoundsOn;
 
-        if (_isSoundOn == true)
+        if (_isSoundsOn == true)
             AudioListener.pause = false;
         else
             AudioListener.pause = true;
