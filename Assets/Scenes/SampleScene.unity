@@ -850,7 +850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 514174317}
-  _effectAudioSource: {fileID: 1056942121}
+  _audioSource: {fileID: 0}
 --- !u!1 &560882300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,7 +1491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8911914461140d44ac9a6f2ef023003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _toogleAllSoundsButton: {fileID: 849294843}
+  _toogleButton: {fileID: 849294843}
 --- !u!1 &952384827
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,7 +1702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 961722372}
-  _effectAudioSource: {fileID: 560882301}
+  _audioSource: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,7 +2138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d856f09c9697735449ae123b80d4f595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioMixer: {fileID: 24300002, guid: f1ebe76eb114af14fa6819fa42b368a7, type: 2}
+  _audioMixer: {fileID: 3294555011998385328, guid: f1ebe76eb114af14fa6819fa42b368a7, type: 2}
   _slider: {fileID: 1114386765}
 --- !u!1 &1151344597
 GameObject:
@@ -2244,7 +2244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d856f09c9697735449ae123b80d4f595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioMixer: {fileID: 24300002, guid: f1ebe76eb114af14fa6819fa42b368a7, type: 2}
+  _audioMixer: {fileID: -5136595936935152609, guid: f1ebe76eb114af14fa6819fa42b368a7, type: 2}
   _slider: {fileID: 1151344599}
 --- !u!1 &1159297681
 GameObject:
@@ -3283,7 +3283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 1691837979}
-  _effectAudioSource: {fileID: 1802413860}
+  _audioSource: {fileID: 0}
 --- !u!1 &1802413859
 GameObject:
   m_ObjectHideFlags: 0
