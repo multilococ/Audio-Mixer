@@ -850,7 +850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 514174317}
-  _audioSource: {fileID: 0}
+  _audioSource: {fileID: 1056942121}
 --- !u!1 &560882300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,7 +1702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 961722372}
-  _audioSource: {fileID: 0}
+  _audioSource: {fileID: 560882301}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3283,7 +3283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 1691837979}
-  _audioSource: {fileID: 0}
+  _audioSource: {fileID: 1802413860}
 --- !u!1 &1802413859
 GameObject:
   m_ObjectHideFlags: 0
