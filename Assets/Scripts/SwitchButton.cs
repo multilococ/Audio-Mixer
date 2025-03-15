@@ -14,7 +14,7 @@ public class SwitchButton : MonoBehaviour
 
     private void OnDisable()
     {
-        _toogleButton.onClick.RemoveAllListeners();
+        _toogleButton.onClick.RemoveListener(ToogleAllSounds);
     }
 
     private void ToogleAllSounds()

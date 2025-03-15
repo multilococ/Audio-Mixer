@@ -14,6 +14,6 @@ public class AudioEffetcButton : MonoBehaviour
 
     private void OnDisable()
     {
-        _button.onClick.RemoveAllListeners();
+        _button.onClick.RemoveListener(_audioSource.Play);
     }
 }

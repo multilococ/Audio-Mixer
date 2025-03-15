@@ -23,7 +23,7 @@ public class VolumeSlider : MonoBehaviour
 
     private void OnDisable()
     {
-        _slider.onValueChanged.RemoveAllListeners();
+        _slider.onValueChanged.RemoveListener(ChangeVolume);
     }
 
     private void ChangeVolume(float volume)
